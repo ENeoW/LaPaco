@@ -1,11 +1,16 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Package.cs" company="">
+//   Pricetravel Holding
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LaPaco.DTO.Models
 {
-    class Package
-    {
+   class Package
+   {
       public int PackageId { get; set; }
 
       public string Name { get; set; }
