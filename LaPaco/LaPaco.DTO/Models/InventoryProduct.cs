@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LaPaco.DTO.Models
 {
-    class InventoryProduct
+    public class InventoryProduct
     {
       public int InventoryProductId { get; set; }
 

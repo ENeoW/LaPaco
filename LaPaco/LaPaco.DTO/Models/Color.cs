@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LaPaco.DTO.Models
 {
-    class Color
+    public class Color
     {
       public int ColorId { get; set; }
 
