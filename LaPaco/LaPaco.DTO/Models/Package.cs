@@ -24,5 +24,13 @@ namespace LaPaco.DTO.Models
       public decimal OverweightKgPrice { get; set; }
 
       public string Description { get; set; }
+
+      public int OrderId { get; set; }
+
+      public virtual Order Order { get; set; }
+
+      public virtual ICollection<InventoryProduct> Inventories { get; set; }
+
+      public virtual ICollection<PurchaseProduct> Purchases { get; set; }
    }
 }

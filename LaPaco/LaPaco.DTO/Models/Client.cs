@@ -21,5 +21,9 @@ namespace LaPaco.DTO.Models
       public string Picture { get; set; }
 
       public string Description { get; set; }
+
+      public virtual ICollection<Order> Orders { get; set; }
+
+      public virtual ICollection<SaleProduct> Sales { get; set; }
    }
 }

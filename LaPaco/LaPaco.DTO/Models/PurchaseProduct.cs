@@ -15,5 +15,17 @@ namespace LaPaco.DTO.Models
       public decimal WeightKg { get; set; }
 
       public decimal Import { get; set; }
+
+      public int ColorId { get; set; }
+
+      public int ProductId { get; set; }
+
+      public int PackageId { get; set; }
+
+      public virtual Color Color { get; set; }
+
+      public virtual Product Product { get; set; }
+
+      public virtual Package Package { get; set; }
    }
 }

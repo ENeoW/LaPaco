@@ -21,5 +21,8 @@ namespace LaPaco.DTO.Models
       public string Picture { get; set; }
 
       public string Description { get; set; }
+
+      //todo: I do not think this is right .. check well please.
+      public virtual ICollection<InventoryProduct> Inventories { get; set; }
    }
 }
