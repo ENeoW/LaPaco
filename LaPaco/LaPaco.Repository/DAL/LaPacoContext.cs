@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LaPaco.DTO.DAL
+namespace LaPaco.Repository.DAL
 {
     public class LaPacoContext: DbContext
     {
