@@ -5,7 +5,7 @@ using LaPaco.DTO.Models;
 
 namespace LaPaco.Repository.Contrats
 {
-    public interface IClasificacionProductRepository : IRepository<ClasificationProduct>
+    public interface IClasificationProductRepository : IRepository<ClasificationProduct>
     {
     }
 }
