@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LaPaco.Models\LaPaco.Models.csproj" />
     <ProjectReference Include="..\LaPaco.Repository\LaPaco.Repository.csproj" />
   </ItemGroup>

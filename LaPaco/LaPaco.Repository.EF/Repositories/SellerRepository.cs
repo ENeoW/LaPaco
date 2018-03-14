@@ -1,15 +1,12 @@
-﻿using LaPaco.DTO.Models;
+﻿using LaPaco.Models;
 using LaPaco.Repository.Contrats;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using LaPaco.Repository.EF.DAL;
 
 namespace LaPaco.Repository.EF
 {
    public class SellerRepository : Repository<Seller>, ISellerRepository
    {
-      public SellerRepository(DbContext context) : base(context)
+      public SellerRepository(LaPacoContext context) : base(context)
       {
       }
    }

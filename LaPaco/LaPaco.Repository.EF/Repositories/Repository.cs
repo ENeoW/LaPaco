@@ -12,12 +12,13 @@ namespace LaPaco.Repository.EF
 {
    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
    {
-      protected readonly UnitOfWork uow;
+      protected readonly DbContext context;
       protected readonly DbSet<TEntity> dbSet;
 
-      public Repository(IUnitOfWork uow)
+      public Repository(DbContext context)
       {
-         dbSet = this.uow.Db.Set<TEntity>();
+         this.context = context;
+         dbSet = this.context.Set<TEntity>();
       }
 
       public Task AddAsync(TEntity entity)

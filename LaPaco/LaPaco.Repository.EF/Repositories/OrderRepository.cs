@@ -1,15 +1,12 @@
-﻿using LaPaco.DTO.Models;
+﻿using LaPaco.Models;
 using LaPaco.Repository.Contrats;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using LaPaco.Repository.EF.DAL;
 
 namespace LaPaco.Repository.EF
-{ 
+{
    public class OrderRepository : Repository<Order>, IOrderRepository
    {
-      public OrderRepository(DbContext context) : base(context)
+      public OrderRepository(LaPacoContext context) : base(context)
       {
       }
    }
