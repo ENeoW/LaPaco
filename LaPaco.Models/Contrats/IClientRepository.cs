@@ -1,4 +1,4 @@
-﻿using LaPaco.Models;
+﻿using LaPaco.DTO.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

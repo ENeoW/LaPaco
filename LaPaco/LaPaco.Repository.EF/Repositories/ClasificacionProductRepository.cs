@@ -1,9 +1,8 @@
-﻿using LaPaco.DTO.Models;
-using LaPaco.Repository.EFRepositories;
-using LaPaco.Repository.DAL;
+﻿using LaPaco.Models;
 using LaPaco.Repository.Contrats;
+using LaPaco.Repository.EF.DAL;
 
-namespace LaPaco.Repository.EFRepositories
+namespace LaPaco.Repository.EF
 {
    public class ClasificacionProductRepository : Repository<ClasificationProduct>, IClasificationProductRepository
    {

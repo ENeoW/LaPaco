@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LaPaco.Repository.EFRepositories
+namespace LaPaco.Repository.EF
 {
-   public class SellerRepository : Repository<Seller>, ISellerRepository
+   public class SaleProductRepository : Repository<SaleProduct>, ISaleProductRepository
    {
-      public SellerRepository(DbContext context) : base(context)
+      public SaleProductRepository(DbContext context) : base(context)
       {
       }
    }

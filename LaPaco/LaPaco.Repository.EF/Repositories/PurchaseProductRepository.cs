@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LaPaco.Repository.EFRepositories
+namespace LaPaco.Repository.EF
 {
    public class PurchaseProductRepository : Repository<PurchaseProduct>, IPurchaseProductRepository
    {

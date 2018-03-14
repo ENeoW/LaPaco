@@ -1,12 +1,9 @@
-﻿using LaPaco.DTO.Models;
+﻿using LaPaco.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace LaPaco.Repository.DAL
+namespace LaPaco.Repository.EF.DAL
 {
-    public class LaPacoContext: DbContext
+   public class LaPacoContext: DbContext
     {
       public DbSet<ClasificationProduct> ClasificationsProduct{ get; set; }
 

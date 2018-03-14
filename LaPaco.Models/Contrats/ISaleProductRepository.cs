@@ -1,11 +1,11 @@
-﻿using LaPaco.Models;
+﻿using LaPaco.DTO.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LaPaco.Repository.Contrats
 {
-    public interface IClientRepository : IRepository<Client>
+    public interface ISaleProductRepository : IRepository<SaleProduct>
     {
     }
 }

@@ -6,8 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LaPaco.Repository.EFRepositories
-{
+namespace LaPaco.Repository.EF
    public class ColorRepository : Repository<Color>, IColorRepository
    {
       public ColorRepository(LaPacoContext context) : base(context)

@@ -1,12 +1,8 @@
-﻿using LaPaco.DTO.Models;
+﻿using LaPaco.Models;
 using LaPaco.Repository.Contrats;
-using LaPaco.Repository.DAL;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using LaPaco.Repository.EF.DAL;
 
-namespace LaPaco.Repository.EFRepositories
+namespace LaPaco.Repository.EF
 {
    public class ClientRepository : Repository<Client>, IClientRepository
    {
